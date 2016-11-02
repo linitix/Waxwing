@@ -7,7 +7,7 @@ import Foundation
 
 public typealias WaxwingMigrationBlock = () -> Void
 
-final class Waxwing {
+public final class Waxwing {
 
     fileprivate let migratedToKey = "com.schnaub.Waxwing.migratedTo"
     fileprivate let migrationQueue = "com.schnaub.Waxwing.queue"
